@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Dashboard</title>
+</head>
+<body>
+    <nav>
+        <h1> Admin Dashboard</h1>
+        <a href="{% url 'logout_view' %}">Logout</a>
+    </nav>
+    <h1> hello {{ user.username }} your role is admin</h1>
+</body>
+</html>
